@@ -1,0 +1,71 @@
+﻿html, body {
+    background:#f8e4e4;
+    font-family:'Comfortaa';
+    font-size:medium;
+    text-align:center;
+    width:100%;
+    margin-left:0px;
+    margin-top:0px;
+    margin-right:0px;
+}
+
+#banner-image {
+    height: 106px; 
+    width: 582px;
+}
+
+#banner-div {
+    margin-top:2%;
+}
+
+.magnets {
+    border:5px solid black;
+    height:300px;
+    width:300px;
+    text-align:center;
+    margin-right:2%;
+    margin-top:2%;
+    display:inline-block;
+    overflow:hidden;
+}
+
+.magnets:hover {
+    border:5px double #ff0000;
+}
+
+.magnet-img {
+    height:300px;
+    width:300px;
+}
+
+.row {
+    width:100%;
+    margin-top:1%;
+}
+
+.content {
+    margin: 5px 100px 5px 100px;
+    text-align:left;
+    font-size:larger;
+}
+
+.navigation {
+    background:black;
+    width:100%;
+    height:40px;
+    margin-left:0px;
+    margin-top:0px;
+    text-align:left;
+}
+
+.navigation-items, .navigation-items a:link, .navigation-items a:visited {
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+    padding-left:0.5%;
+    padding-right:0.5%;
+}
+
+.navigation-items:hover {
+    background:#808080;
+}
