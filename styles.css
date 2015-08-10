@@ -18,6 +18,15 @@
     margin-top:2%;
 }
 
+#poem {
+    text-align:center;
+    font-family:'Bad Script';
+}
+
+#poem h1 {
+    display:inline-block;
+}
+
 .magnets {
     border:5px solid black;
     height:300px;
@@ -64,8 +73,22 @@
     font-size:30px;
     padding-left:0.5%;
     padding-right:0.5%;
+    display: inline-block;
 }
 
 .navigation-items:hover {
     background:#808080;
+}
+
+.content img {
+    float:left;
+    padding:5px 20px;
+}
+
+.content li {
+    padding-top:20px;
+}
+
+.content .special-img {
+    float:none;
 }
