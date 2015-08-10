@@ -4,9 +4,33 @@
     <title>Protect The Environment! | Acid Rain</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link href='http://fonts.googleapis.com/css?family=Bad+Script|Architects+Daughter|Comfortaa|Handlee' rel='stylesheet' type='text/css' />
-
+    <script src="dropdown.js"></script>
 </head>
 <body>
+
+    <div class="navigation">
+        <ul class="sddm">
+            <li><a href="index.html">Home</a>
+            </li>
+            <li><a href="#"
+                onmouseover="mopen('m2')"
+                onmouseout="mclosetime()">Crisis &#x25BC</a>
+                <div id="m2"
+                    onmouseover="mcancelclosetime()"
+                    onmouseout="mclosetime()">
+                    <a href="globalwarming.html">Global Warming</a>
+                    <a href="acidrain.html">Acid Rain</a>
+                    <a href="desertification.html">Desertification</a>
+                    <a href="overpopulation.html">Overpopulation</a>
+                    <a href="pollution.html">Pollution</a>
+                </div>
+            </li>
+            <li><a href="solutions.html">Solutions</a>
+        </ul>
+        <div style="clear: both"></div>
+
+    </div>
+
     <h1>ACID RAIN</h1>
     <div class="content">
         <h3>What is Acid Rain</h3>
