@@ -67,6 +67,10 @@
     text-align:left;
 }
 
+.video {
+    float: right;
+}
+
 .content img {
     float:left;
     padding:5px 20px;
