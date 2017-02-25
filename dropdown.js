@@ -1,5 +1,4 @@
-﻿var timeout = 0;
-var closetimer = 0;
+﻿var closetimer = 0;
 var ddmenuitem = 0;
 
 // open hidden layer
@@ -22,7 +21,7 @@ function mclose() {
 
 // go close timer
 function mclosetime() {
-    closetimer = window.setTimeout(mclose, timeout);
+    closetimer = window.setTimeout(mclose, 0);
 }
 
 // cancel close timer
