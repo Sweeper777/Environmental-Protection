@@ -98,51 +98,59 @@ a {
 
 
 
-.sddm
-{	margin: 0;
+.sddm {	
+	margin: 0;
 	padding: 0;
 	z-index: 30}
 
-.sddm li
-{	margin: 0;
+.sddm li {	
+	margin: 0;
 	padding: 5px;
 	list-style: none;
 	float: left;
 	font: normal 20px 'Comfortaa';
 }
 
-.sddm li a
-{	display: block;
+.sddm li a {	
+	display: block;
 	margin: 0 1px 0 0;
 	padding: 4px 10px;
 	width: auto;
 	color: #FFF;
 	text-align: center;
-	text-decoration: none}
+	text-decoration: none;
+}
 
-.sddm li a:hover
-{	background: #808080}
+.sddm li a:hover {	
+	background: #808080
+}
 
-.sddm div
-{	position: absolute;
+.sddm li a:active {
+	background: #a0a0a0;
+}
+
+.sddm div {	
+	position: absolute;
 	visibility: hidden;
 	margin: 0;
 	padding: 0;
-	background: black;}
+	background: black;
+}
 
-	.sddm div a
-	{	position: relative;
-		display: block;
-		margin: 0;
-		padding: 5px 10px;
-		width: auto;
-		white-space: nowrap;
-		text-align: left;
-		text-decoration: none;
-		background: 0;
-		color: #FFF;
-		font: 20px 'Comfortaa'}
+.sddm div a {	
+	position: relative;
+	display: block;
+	margin: 0;
+	padding: 5px 10px;
+	width: auto;
+	white-space: nowrap;
+	text-align: left;
+	text-decoration: none;
+	background: 0;
+	color: #FFF;
+	font: 20px 'Comfortaa';
+}
 
-	.sddm div a:hover
-	{	background: #808080;
-		color: #FFF}
+.sddm div a:hover {	
+	background: #808080;
+}
