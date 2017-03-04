@@ -154,3 +154,7 @@ a {
 .sddm div a:hover {	
 	background: #808080;
 }
+
+.sddm div a:active {
+	background: #a0a0a0;
+}
