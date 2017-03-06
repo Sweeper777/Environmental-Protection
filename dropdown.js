@@ -16,12 +16,7 @@ function mopen(id) {
 }
 // close showed layer
 function mclose() {
-    if (ddmenuitem) ddmenuitem.style.visibility = 'hidden';
-}
-
-// go close timer
-function mclosetime() {
-    closetimer = window.setTimeout(mclose, 0);
+    closetimer = window.setTimeout(() => {if(ddmenuitem) ddmenuitem.style.visibility = 'hidden';});
 }
 
 // cancel close timer
@@ -31,6 +26,3 @@ function mcancelclosetime() {
         closetimer = null;
     }
 }
-
-// close layer when click-out
-document.onclick = mclose;
